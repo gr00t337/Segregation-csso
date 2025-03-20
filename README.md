@@ -1,2 +1,1 @@
-# Segregation-hl2dm
-previous_build
+cl_updaterate 100;cl_interp_ratio 0;cl_interp 0

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Segregation", "Segregation.vcxproj", "{9E56CC0A-5A40-4957-8031-AB3CC4108170}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E56CC0A-5A40-4957-8031-AB3CC4108170}.Release|x86.ActiveCfg = Release|Win32
+		{9E56CC0A-5A40-4957-8031-AB3CC4108170}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BFB9E12-385C-42C7-ADBD-7563FC9C78A4}
+	EndGlobalSection
+EndGlobal

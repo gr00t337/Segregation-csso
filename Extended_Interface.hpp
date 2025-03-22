@@ -101,11 +101,11 @@ void Implement_Extended_Interface()
 
 	Create_Interface(Pointer_Name(Interface_Target_On_Simulation), (char*)"1", nullptr);
 
-	Create_Interface(Pointer_Name(Interface_Alternative), (char*)"1", nullptr);
+	Create_Interface(Pointer_Name(Interface_Alternative), (char*)"0", nullptr);
 
 	Create_Interface(Pointer_Name(Interface_Duck_Advantage), (char*)"1", nullptr);
 
-	Create_Interface(Pointer_Name(Interface_Minimum_Choked_Commands), (char*)"1", nullptr);
+	Create_Interface(Pointer_Name(Interface_Minimum_Choked_Commands), (char*)"2", nullptr);
 
 	Create_Interface(Pointer_Name(Interface_Maximum_Choked_Commands), (char*)"14", nullptr);
 
@@ -113,13 +113,13 @@ void Implement_Extended_Interface()
 
 	Create_Interface(Pointer_Name(Interface_Aim_Height), (char*)"0.9", nullptr);
 
-	Create_Interface(Pointer_Name(Interface_Angle_X), (char*)"180", nullptr);
+	Create_Interface(Pointer_Name(Interface_Angle_X), (char*)"540", nullptr);
 
-	Create_Interface(Pointer_Name(Interface_First_Choked_Angle_Y), (char*)"180", nullptr);
+	Create_Interface(Pointer_Name(Interface_First_Choked_Angle_Y), (char*)"135", nullptr);
 
 	Create_Interface(Pointer_Name(Interface_Second_Choked_Angle_Y), (char*)"180", nullptr);
 
-	Create_Interface(Pointer_Name(Interface_Angle_Y), (char*)"180", nullptr);
+	Create_Interface(Pointer_Name(Interface_Angle_Y), (char*)"-45", nullptr);
 
 	Create_Interface(Pointer_Name(Interface_Uber_Alles_Scale), (char*)"16", nullptr);
 

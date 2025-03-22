@@ -16,7 +16,7 @@ void __stdcall Event_Processor(void* Event)
 
 		using Get_Integer_Type = __int32(__thiscall*)(void* Event, char* Key, void* Unknown_Parameter);
 
-		__int32 Local_Number = *(__int32*)((unsigned __int32)Local_Player + 80);
+		__int32 Local_Number = *(__int32*)((unsigned __int32)Local_Player + 92);
 
 		if (Name[0] == 'p')
 		{
@@ -32,9 +32,9 @@ void __stdcall Event_Processor(void* Event)
 					{
 						if (Name[7] == 'd')
 						{
-							Player_Data_Structure* Player_Data = &Players_Data[Killer_Number];
+							/*Player_Data_Structure* Player_Data = &Players_Data[Killer_Number];
 
-							Player_Data->Memory_Tolerance = 0;
+							Player_Data->Memory_Tolerance = 0;*/
 
 							if (Interface_Commentator.Integer == 1)
 							{
@@ -48,7 +48,7 @@ void __stdcall Event_Processor(void* Event)
 						{
 							if (Victim_Number == Recent_Player_Data_Number)
 							{
-								__int8 Revert = 1;
+								/*__int8 Revert = 1;
 
 								Player_Data_Structure* Player_Data = &Players_Data[Victim_Number];
 
@@ -95,7 +95,7 @@ void __stdcall Event_Processor(void* Event)
 											Player_Data->Memory_Tolerance = Interface_Bruteforce_Memory_Tolerance.Integer;
 										}
 									}
-								}
+								}*/
 							}
 
 							if (Name[7] == 'd')
